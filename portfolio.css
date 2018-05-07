@@ -1,0 +1,169 @@
+body {
+  background-color: lightgray;
+  font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+#wrapper { 
+    max-width: 2600px;
+    margin: 0 auto;
+    padding: 0 10%;
+}
+
+a {
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: black;
+    
+}
+
+img {
+    max-width:100%;
+}
+
+h3 {
+    margin: 0 0 1em 0;
+}
+
+/***************************************
+HEADER
+****************************************/
+header{
+float: left;
+margin: 0 0 30px 0;
+padding: 0px 0 0 0;
+width: 100%
+}
+
+#logo
+ {
+   text-align: center;
+   margin: 0;
+ }
+ 
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    margin: 15px 0;
+    font-size: 5em;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+    margin: -5px 0 0;
+    font-weight: 500;
+}
+/**************************************
+NAVIGATION
+***************************************/
+
+nav{
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 10px 0;
+    margin: 0 10px;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    font-weight: 800;
+    padding: 15px 10px;
+}
+
+/**************************************
+FOOTER
+***************************************/
+footer {
+    font-size: 1em;
+    text-align: center;
+    padding-top: 50px
+}
+footer {
+    color: #6D829C;
+    clear: both;
+}
+
+.social-media-icon {
+    width: 35px;
+    height: 35px;
+    margin: 0 5px;
+}
+
+/**************************************
+PAGE PORTFOLIO
+***************************************/
+
+#gallery {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#gallery li {
+float: left;
+width: 45%;
+margin: 2.5%;
+background-color: #c0c0c0;
+color: bdc3c7;
+}
+#gallery li a p {
+    margin: 0;
+    padding: 5%;
+    font-size: 0.75em;
+    color:#000
+}
+
+
+#resume{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+}
+
+/***************************************
+ABOUT ME PAGE  
+****************************************/
+
+.profile-photo {
+    display:block;
+    max-width: 0 auto 30px;
+    border-radius: 15%; 
+}
+
+
+/***************************************
+COLORS
+****************************************/
+h1, h2 {
+    color: #fff;
+}
+
+nav a, nav a:visited{
+   color: white;
+}
+nav a.selected, nav a:hover {
+    color: #000;
+}
+
+nav {
+    background-color: #6D829C;
+}
+h1{
+  color: #fff; 
+}
+
+header {
+    background: #99a8ba;
+}
+
+
+
